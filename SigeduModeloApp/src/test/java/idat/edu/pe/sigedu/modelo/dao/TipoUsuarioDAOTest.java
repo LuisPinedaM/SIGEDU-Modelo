@@ -42,6 +42,8 @@ public class TipoUsuarioDAOTest {
     
     @Test
     public void testBuscarTodo() {
-        
+        System.out.println("buscarTodo");
+        TipoUsuarioDAO instance = new 
+        AssertEquals(0, result.size());
     }
 }
